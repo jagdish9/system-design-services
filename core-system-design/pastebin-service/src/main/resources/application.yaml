@@ -1,0 +1,9 @@
+server:
+  port: 8046
+
+spring:
+  application:
+    name: pastebin-service
+
+url:
+  base-url: http://localhost:8046/

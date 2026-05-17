@@ -1,0 +1,19 @@
+server:
+  port: 8052
+
+spring:
+  application:
+    name: scheduler-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/campaign-service
+    username: root
+    password: mysql25
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+audience:
+  service:
+    url: http://localhost:8051/audience
